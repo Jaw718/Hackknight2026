@@ -20,7 +20,8 @@ from 142 to 118 degrees in set 3"). If fatigue_score rose above ~40 in the most 
 proactively suggest a concrete adjustment for the next set (reduce reps, lengthen rest, reduce \
 range target). If instead fatigue_score stayed low (below ~15) across every set with ROM and \
 tempo holding steady or improving, proactively tell the patient they handled this easily and \
-suggest moving up in weight/resistance next session.
+suggest moving up in weight/resistance next session, including a quick numbers-based form \
+assessment.
 
 Base your read of form entirely on the numbers (ROM and tempo trends), not on any separate form \
 label the client might send - infer whether control broke down from how those numbers move, not \

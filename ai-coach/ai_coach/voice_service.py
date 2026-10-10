@@ -13,16 +13,10 @@ if ELEVENLABS_API_KEY:
     _client = ElevenLabs(api_key=ELEVENLABS_API_KEY)
 
 # Arc's persona is always "Arc" regardless of which voice is selected - these are
-# just the voice options (male/female x accent) presented to the patient. Each
-# voice_id is confirmed working with a live text_to_speech call; the key used to
-# build this isn't scoped with voices_read, so entries aren't pulled from
-# voices.get_all() and there's no Australian female option yet (see README).
+# just the voice options (male/female, american accent) presented to the patient.
 VOICE_CATALOG = [
     {"voice_id": "SykE36PkoSIHecRtH16N", "gender": "female", "accent": "american"},
     {"voice_id": "IbfDOfGUmsNNu7w5955S", "gender": "male", "accent": "american"},
-    {"voice_id": "JBFqnCBsd6RMkjVDRZzb", "gender": "male", "accent": "british"},
-    {"voice_id": "pFZP5JQG7iQjIQuC4Bku", "gender": "female", "accent": "british"},
-    {"voice_id": "IKne3meq5aSn9XLyUdCD", "gender": "male", "accent": "australian"},
 ]
 
 
